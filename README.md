@@ -19,3 +19,24 @@
 如果识别功能：根据消息的类型识别客户端请求的功能。
 开启服务各项功能的子进程
 按照各进程按照消息类型接收消息
+
+
+change.c 改密码
+destory.c 销毁用户
+open.c  开户   
+select.c 查询  
+take.c 取款  
+transf.c 转账
+client.c 用户端  
+login.c 登陆   
+server.c 系统端  
+tools.c 一些工具函数  
+unlock.c 解锁
+data 存储用户信息    
+Makefile  编译执行脚本 
+save.c 存款    
+struct.h 结构体存储头文件 
+tools.h 工具函数头文件
+
+此处所用getch.h的头文件为自建头文件（linux下没有conio.h头文件）
+如果有需要可以私我
